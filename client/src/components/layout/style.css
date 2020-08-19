@@ -1,0 +1,28 @@
+.header {
+  background-color: #8e8dbe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 6%;
+}
+
+.header .header-title {
+  font-size: 35px;
+}
+
+.header .links-box {
+  padding-top: 7px;
+}
+
+.header .links-box .basket i {
+  font-size: 42px;
+}
+
+.header * {
+  color: #f4f4f4;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #0c0f0a;
+  font-family: "Baloo Tamma 2", cursive;
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8e8dbe;
+}
+
+.app {
+  background-color: #f4f4f4;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app .scroll-box {
+  height: 92vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/*# sourceMappingURL=style.css.map */

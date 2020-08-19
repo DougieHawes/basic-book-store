@@ -1,0 +1,35 @@
+$font: "Baloo Tamma 2", cursive;
+
+$colour1: #0c0f0a;
+$colour2: #f4f4f4;
+$colour3: #8e8dbe;
+
+* {
+  box-sizing: border-box;
+  color: $colour1;
+  font-family: $font;
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  background: $colour2;
+}
+::-webkit-scrollbar-thumb {
+  background: $colour3;
+}
+
+.app {
+  background-color: $colour2;
+  height: 100vh;
+  overflow: hidden;
+  .scroll-box {
+    height: 92vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}

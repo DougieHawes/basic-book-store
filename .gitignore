@@ -1,3 +1,4 @@
-.scss
+*.scss
+*.css.map
 .env
 node_modules/
